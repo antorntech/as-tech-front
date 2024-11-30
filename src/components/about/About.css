@@ -1,0 +1,17 @@
+/* Custom Slick Dots */
+.slick-dots.custom-dots {
+  bottom: -35px; /* Adjust based on your layout */
+}
+
+.slick-dots li {
+  margin: 0 5px;
+}
+
+.slick-dots li button:before {
+  font-size: 10px;
+  color: gray;
+}
+
+.slick-dots li.slick-active button:before {
+  color: orange;
+}
