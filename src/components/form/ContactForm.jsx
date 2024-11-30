@@ -48,7 +48,7 @@ const ContactForm = () => {
   return (
     <>
       <form action="#" className="w-full">
-        <div className="w-full flex items-center gap-2">
+        <div className="w-full flex-col md:flex-row flex items-center gap-2">
           <div className="w-full md:w-1/2">
             <input
               type="text"
@@ -72,7 +72,7 @@ const ContactForm = () => {
             />
           </div>
         </div>
-        <div className="w-full flex items-center gap-2 my-5">
+        <div className="w-full flex flex-col md:flex-row items-center gap-2 my-5">
           <div className="w-full md:w-1/2">
             <input
               type="number"

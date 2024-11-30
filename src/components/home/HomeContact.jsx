@@ -37,7 +37,7 @@ const HomeContact = () => {
           </div>
         </div>
 
-        <div className="w-full flex items-start gap-5 md:gap-12 mt-5">
+        <div className="w-full flex flex-col md:flex-row items-start gap-8 md:gap-12 mt-5">
           <div className="w-full md:w-2/3">
             <ContactForm />
           </div>
